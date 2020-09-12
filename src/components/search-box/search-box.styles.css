@@ -1,0 +1,21 @@
+.search {
+    -webkit-appearance: none;
+    border: none;
+    border-bottom: 2px solid blue;
+    color: black;
+    font-weight: 600;
+    outline: none;
+    padding: 10px 10px 0 2px;
+    width: 250px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    background: transparent;
+    letter-spacing: 1px;
+
+}
+
+.search::placeholder {
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
